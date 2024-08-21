@@ -1,4 +1,5 @@
-variable "aws_region" {}
+variable "aws_region" {  
+}
 
 variable "vpc_cidr" {
   default = "10.123.0.0/16"
@@ -21,4 +22,12 @@ variable "max_subnets" {
 variable "access_ip" {}
 variable "db_subnet_group" {
   default = true
+}
+
+variable "AWS_ACCESS_KEY_ID" {
+  
+}
+
+variable "AWS_SECRET_ACCESS_KEY" {
+  
 }
