@@ -23,11 +23,3 @@ variable "access_ip" {}
 variable "db_subnet_group" {
   default = true
 }
-
-variable "AWS_ACCESS_KEY_ID" {
-  
-}
-
-variable "AWS_SECRET_ACCESS_KEY" {
-  
-}
